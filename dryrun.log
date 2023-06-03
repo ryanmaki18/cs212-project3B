@@ -1,0 +1,7 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory '/home/me/Desktop/cs212/project3B'
+gcc -W -Wall -o project3B project3B.o project3B_deque.o
+./project3B < project3B_input.scr > project3B_output.txt
+tar -zcvf proj3B.tgz project3B.c project3B_deque.h project3B_deque.c project3B_input.scr project3B_output.txt Makefile
+make: Leaving directory '/home/me/Desktop/cs212/project3B'
+ 
